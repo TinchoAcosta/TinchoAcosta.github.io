@@ -1,16 +1,23 @@
-const grande    = document.querySelector('.contenedorFoto')
-const punto     = document.querySelectorAll('.punto')
+const imagenes = ["images/foto.jpg","images/foto1.jpg","images/foto2.jpg","images/foto3.jpg"];
+let i=0;
+const anterior = document.getElementById("ant");
+const siguiente = document.getElementById("sig");
+const imagenMostrada = document.getElementById("uno");
 
-punto.forEach( ( cadaPunto , i )=> {
-    punto[i].addEventListener('click',()=>{
-        let posicion  = i
-        let operacion = posicion * -25
+function mostrar() {
+    imagenMostrada.src = imagenes[i];
+}
 
-        grande.style.transform = `translateX(${ operacion }%)`
-        punto.forEach( ( cadaPunto , i )=>{
-            punto[i].classList.remove('activo')
-        })
-        punto[i].classList.add('activo')
+function sigImagen() {
+    i = (i + 1) % imagenes.length;
+    mostrar();
+}
 
-    })
-})
+function antImagen() {
+    i = (i - 1 + imagenes.length) % imagenes.length;
+    mostrar();
+}
+
+siguiente.addEventListener("click", sigImagen);
+anterior.addEventListener("click", antImagen);
+mostrar();

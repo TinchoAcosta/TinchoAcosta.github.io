@@ -132,3 +132,8 @@ header {
 .galeria li.punto.activo {
     background-color: rgb(48, 212, 15);
 }
+
+.mapa {
+    width: 100%;
+    margin: 0 auto;
+}

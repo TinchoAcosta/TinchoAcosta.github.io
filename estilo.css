@@ -116,6 +116,10 @@ header {
     align-items: center;
 }
 
+.galeria li.punto:hover {
+    cursor: pointer;
+}
+
 .galeria li.punto {
     width: 2em;
     height: 2em;
@@ -126,5 +130,5 @@ header {
 }
 
 .galeria li.punto.activo {
-    background-color: gray;
+    background-color: rgb(48, 212, 15);
 }

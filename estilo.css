@@ -3,7 +3,7 @@ body {
     background-size: contain;
     background-attachment: fixed;
     margin: 0%;
-    width: 100%;
+    overflow-x: hidden;
 }
 
 p, h1, h4, h2 {
@@ -69,26 +69,62 @@ header {
 }
 
 .galeria {
-    background-color: white;   
+    background-color: white;  
+    overflow: hidden; 
+    border-radius: 1em;
+    width: 80%;
+    max-width: 120em;
+    padding: 2em;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
-#contenedorFoto {
+.contenedorFoto {
     width: 400%;
     display: flex;
-    justify-content: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
     align-items: center;
-    overflow: hidden;
     padding: 2em;
+    transition: all 0.5s ease;
+    transform: translateX(0%);
+    border-radius: 1em;
 }
 
 .uno {
     flex-direction: row;
     transform-origin: center;
     overflow: hidden;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    border-radius: 1em;
     width: calc(100% / 4 - 2em);
+    min-height: 10vh;
+    box-shadow: 1em 1em 2em;
 }
 
-.uno:hover {
+/*.uno:hover {
     transform: scale(1.5, 1.5);
+}*/
+
+.galeria .puntos {
+    width: 100%;
+    margin: 1em 0 0;
+    padding: 0.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria li.punto {
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 0;
+    border-radius: 1em;
+    box-shadow: 0.6em 0.6em 1.2em;
+    list-style-type: none;
+}
+
+.galeria li.punto.activo {
+    background-color: gray;
 }

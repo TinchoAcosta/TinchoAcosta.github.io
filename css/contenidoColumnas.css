@@ -1,0 +1,72 @@
+.fila{
+    display: flex;
+    flex-direction: row;
+
+    width: 95%;
+   
+
+    padding: 2em;
+    border-radius: 1em;
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente las imágenes */
+    align-items: center; /* Centra verticalmente las imágenes */
+
+    border: 1px solid black;
+
+    background: white;
+
+    
+
+    padding: 20px;
+
+    align-content: flex-start;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.caja{
+    
+    
+    flex-basis: auto;
+    width: 30%;
+    
+
+
+    border: 1px solid rgb(18, 117, 38);
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    
+    
+     
+    line-height: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: baseline;
+
+    background-color: white;
+
+    img{
+        
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    p{
+        
+        font-family: "Pacifico", cursive;
+    
+    font-style: normal;
+    color: rgb(31, 15, 212);
+    }
+
+    
+    
+    
+}

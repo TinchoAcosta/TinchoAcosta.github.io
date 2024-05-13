@@ -1,7 +1,21 @@
+@import "navbar.css";
+@import "contenidoColumnas.css";
+
+
+
+/* DOY ALTERNATIVA A ESTE FONDO DE IMAGEN, CAMBIO POR COLOR SOLIDO COMPLEMENTARIO AL VERDE "MAGENTA"
 body {
     background-image: url(https://img.freepik.com/fotos-premium/seccion-media-mujer_1048944-6627852.jpg?size=626&ext=jpg);
     background-size: cover;    
     margin: 0%;
+    overflow-x: hidden;
+}
+*/
+body {
+    background-color: rgb(250, 197, 250);
+    background-size: cover;    
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
 }
 

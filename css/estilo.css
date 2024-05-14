@@ -12,7 +12,7 @@ body {
 }
 */
 body {
-    background-color: rgb(250, 197, 250);
+    background-color: rgba(235, 202, 235, .4);
     background-size: cover;    
     margin: 0;
     padding: 0;
@@ -21,13 +21,15 @@ body {
 
 p, h1, h4, h2 {
     font-family: "Pacifico", cursive;
+   /*
     font-weight: 400;
+    */
     font-style: normal;
     color: rgb(48, 212, 15);
     margin: 0%;
     text-align: center;
 }
-
+/* perdón pero te borré la id "menu"
 #menu p {
     padding-top: 10px;
 }
@@ -45,19 +47,19 @@ a img{
     width: 250px;
     height: 80px;
 }
-
+*/
 header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(18, 117, 38);
     width: 100%;
 }
-
+/*
 #menu {
     display: flex;
     justify-content: space-between;
 }
-
+*/
 .presentacion{
     display: flex;
     flex-direction: row;
@@ -135,6 +137,7 @@ header {
     margin-top: 1em;
 }
 
+/*estilo a botones de "galeria de fotos"*/
 .boton {
     border-radius: 1em;
     background-color: rgb(18, 117, 38);

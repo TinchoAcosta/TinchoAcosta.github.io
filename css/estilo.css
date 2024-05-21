@@ -1,5 +1,6 @@
 @import "navbar.css";
 @import "contenidoColumnas.css";
+@import url(formulariosstyle.css);
 
 body {
     background-color: rgba(235, 202, 235, .4);
@@ -117,7 +118,7 @@ header {
 
 .boton:hover {
     cursor: pointer;
-    transform: scale(1.6, 1.6)
+    transform: scale(1.4, 1.4)
 }
 
 .botones {

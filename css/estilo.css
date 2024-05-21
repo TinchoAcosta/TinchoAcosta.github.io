@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
 }
 
-p, h1, h4, h2 {
+body {
     font-family: "Pacifico", cursive;
    /*
     font-weight: 400;

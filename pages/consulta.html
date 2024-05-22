@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/validar.js"></script>
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!--Fuentes-->
+</head>
+
+<body>
+  
+    <!-- HEADER -->
+    <header>
+   
+        <a href="../index.html">
+            <img src="../images/logo-sin-fondo-1920w-286w.webp" alt="DejandoHuellasLogo">
+        </a>
+        <nav class="navbar">
+            
+            <a href="tratamiento.html">Tratamientos</a>
+            <a href="informacion.html">Información</a>
+            <a href="consulta.html">Consulta</a>                                   
+        </nav>
+    </header>
+    
+    <form id="formulario" onsubmit="return validar()">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label for="email">Correo Electrónico:</label>
+        <input type="text" name="email" id="email"><br>
+        <label for="tel">Teléfono: </label>
+        <input type="number" name="tel" id="tel"><br>
+        <label for="consulta">Su Consulta:</label>
+        <textarea name="consulta" id="consulta" form="formulario" cols="40" rows="10"></textarea><br>
+        <input type="submit" value="Enviar" class="boton">
+    </form>
+    <ul class="list" id="list">
+
+    </ul>
+
+    <div class="ubi">
+        <h2>¡Encuentranos aquí!</h2>
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38709.392430015214!2d-66.31275811795378!3d-33.18433239438335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a155f537b%3A0xf83235263b82f801!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1620216626826!5m2!1sen!2sus" frameborder="0" ></iframe>
+    </div>
+</body>
+</html>

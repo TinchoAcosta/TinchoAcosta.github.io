@@ -1,0 +1,83 @@
+.fila{
+    display: flex;
+    flex-direction: row;
+
+    width: 95%;
+   
+
+   
+    border-radius: 1em;
+    display: flex; /* Utiliza el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente las imágenes */
+    align-items:normal; 
+    padding: 10px;
+
+    
+    align-content:space-around;
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+.caja{
+
+    align-content:center;
+    flex-direction: column;
+    
+    flex-basis: auto;
+    width: 30%;
+    
+    
+    
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-size: small;
+    
+    border-radius: 20px;
+     
+    
+    text-align:justify;
+    margin: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    /*
+    align-items: baseline;
+*/
+    background-color: white,5;
+
+    img{
+
+        padding: 10px;
+        
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    p{
+        flex-direction: column;
+        /*
+        align-items: stretch;
+        */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+
+
+   /* si seguimos con el fuente en verde como en el main 
+   borraríamos esto, sino, aquí se puede decidir algun color para los parrafos 
+    color: rgb(31, 15, 212);
+    */
+    }
+
+    
+    
+    
+}
+
+.caja img:hover{
+
+    background-color: rgb(13, 61, 22);
+    width: 100%;
+    
+}

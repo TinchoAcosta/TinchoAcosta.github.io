@@ -2,6 +2,16 @@
 @import "contenidoColumnas.css";
 @import url(formulariosstyle.css);
 
+
+
+/* DOY ALTERNATIVA A ESTE FONDO DE IMAGEN, CAMBIO POR COLOR SOLIDO COMPLEMENTARIO AL VERDE "MAGENTA"
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/seccion-media-mujer_1048944-6627852.jpg?size=626&ext=jpg);
+    background-size: cover;    
+    margin: 0%;
+    overflow-x: hidden;
+}
+*/
 body {
     background-color: rgba(235, 202, 235, .4);
     background-size: cover;    
@@ -20,14 +30,37 @@ p, h1, h4, h2 {
     margin: 0%;
     text-align: center;
 }
+/* perdón pero te borré la id "menu"
+#menu p {
+    padding-top: 10px;
+}
 
+header nav#menu a:hover {
+    background-color: rgb(2, 27, 4);
+} 
+
+header nav#menu a {
+    text-decoration: none;
+    padding: 20px;
+}
+
+a img{
+    width: 250px;
+    height: 80px;
+}
+*/
 header {
     display: flex;
     justify-content: space-between;
     background-color: rgb(18, 117, 38);
     width: 100%;
 }
-
+/*
+#menu {
+    display: flex;
+    justify-content: space-between;
+}
+*/
 .presentacion{
     display: flex;
     flex-direction: row;

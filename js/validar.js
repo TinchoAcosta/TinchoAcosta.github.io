@@ -78,11 +78,13 @@ function validar() {
     title.className = 'control';
     if (errorFlag==false) {
         title.textContent = "ERROR";
+        title.style.color = 'red';
         lista.appendChild(title);
         for (let i = 0; i < errores.length; i++) {
             item = document.createElement('li');
             item.textContent = errores[i];
             item.className = 'control';
+            item.style.color = 'red';
             lista.appendChild(item);
         }
     }else {

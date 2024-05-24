@@ -41,6 +41,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 #quienes, #somos{
@@ -49,6 +50,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .avalados {

@@ -1,19 +1,18 @@
-.footer{
-
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+body div.footer{
+    padding-top: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
     background-color: rgb(18, 117, 38);
-    color: white;
-    text-align: center;
-    
-    
+    height: 100%;
 }
-
-
-.footer a:hover{
-
-    background-color: rgb(13, 61, 22);
-    
+.footer p,.footer nav{
+    margin: 0%;
+}
+.footer strong{
+    color: black;
+    &:hover{
+        color: chartreuse;
+    }
 }

@@ -1,13 +1,15 @@
-#contenedor {
+  #contenedor {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
   }
   #principal {
-    width: 60%;
+    width: 50%;
   }
   #sidebar {
-    width: 20%;
+    width: 50%;
   }
 
   #foto{

@@ -1,10 +1,14 @@
 @import "navbar.css";
-@import "footer";
+@import "footer.css";
 @import "contenidoColumnas.css";
 @import "estiloInformacion.css";
 @import url(formulariosstyle.css);
 
 body {
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+    color: rgb(48, 212, 15);
+    margin: 0%;
     background-color: rgba(235, 202, 235, .4);
     background-size: cover;    
     margin: 0;
@@ -12,14 +16,11 @@ body {
     overflow-x: hidden;
 }
 
-body {
-    font-family: "Pacifico", cursive;
-   /*
-    font-weight: 400;
-    */
-    font-style: normal;
-    color: rgb(48, 212, 15);
-    margin: 0%;
+.ubi h2{
+    text-align: center;
+}
+
+h1 {
     text-align: center;
 }
 
@@ -57,6 +58,7 @@ header {
 
 .avalados {
     background-color: transparent;
+    text-align: center;
 }
 
 .avalados h2 {

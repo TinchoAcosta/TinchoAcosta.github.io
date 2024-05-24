@@ -12,10 +12,14 @@ li.control::before{
 }
 .control{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 .incorrecto{
     border-color: red;
     &:hover{
         border-color:red;
     }
+}
+form#formulario{
+    text-align: center;
 }

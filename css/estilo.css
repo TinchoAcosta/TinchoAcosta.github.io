@@ -1,5 +1,7 @@
 @import "navbar.css";
+@import "footer";
 @import "contenidoColumnas.css";
+@import "estiloInformacion.css";
 @import url(formulariosstyle.css);
 
 body {

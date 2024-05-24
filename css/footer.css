@@ -1,0 +1,19 @@
+.footer{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(18, 117, 38);
+    color: white;
+    text-align: center;
+    
+    
+}
+
+
+.footer a:hover{
+
+    background-color: rgb(13, 61, 22);
+    
+}

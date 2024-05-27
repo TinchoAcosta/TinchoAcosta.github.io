@@ -1,4 +1,5 @@
   #contenedor {
+    padding: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -6,29 +7,13 @@
     text-align: center;
   }
   #principal {
-    width: 50%;
+    width: 60%;
   }
   #sidebar {
-    width: 50%;
+    width: 30%;
   }
 
-  #foto{
-
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-    /*
-    width: 100%;
-    padding: 2em;
-    border-radius: 1em;
-    display: flex;
-  */
-   /*
+  img{
     padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    */
-}
+    border-radius: 20px;
+  }

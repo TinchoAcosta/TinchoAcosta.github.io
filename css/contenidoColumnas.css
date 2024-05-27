@@ -29,7 +29,7 @@
     
     
     
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+   
     font-size: small;
     
     border-radius: 20px;
@@ -42,9 +42,7 @@
     display: flex;
     flex-wrap: wrap;
 
-    /*
-    align-items: baseline;
-*/
+  
     background-color: white,5;
 
     img{
@@ -57,17 +55,12 @@
 
     p{
         flex-direction: column;
-        /*
-        align-items: stretch;
-        */
+        
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
 
 
-   /* si seguimos con el fuente en verde como en el main 
-   borraríamos esto, sino, aquí se puede decidir algun color para los parrafos 
-    color: rgb(31, 15, 212);
-    */
+  
     }
 
     
